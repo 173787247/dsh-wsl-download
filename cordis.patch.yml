@@ -1,0 +1,5 @@
+- insert:
+    - id: dsh-wsl-download
+      name: dsh-wsl-download
+      config:
+        timeoutMs: 30000
