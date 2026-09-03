@@ -1,7 +1,7 @@
 {
   "name": "dsh-wsl-download",
-  "version": "0.1.0",
-  "description": "Copy a file from the Windows Downloads folder into the WSL workspace.",
+  "version": "0.2.0",
+  "description": "Windows Downloads list/copy plus ModelScope/HF/GGUF download hints for WSL agents.",
   "license": "MIT",
   "repository": {
     "type": "git",

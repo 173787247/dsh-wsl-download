@@ -11,12 +11,12 @@ export function apply(ctx, config = {}) {
   ctx.systemPrompt.section({
     name: "tool:win_download",
     order: 124,
-    text: "Use win_download for WSL/Windows interop: Copy a file from the Windows Downloads folder into the WSL workspace.",
+    text: "Use win_download to list/copy Windows Downloads into WSL, or action=hint for ModelScope/HF/GGUF/Flash-Next playbook (do not re-download existing shards).",
   });
 
   ctx.tools.register({
     name: "win_download",
-    description: "Copy a file from the Windows Downloads folder into the WSL workspace.",
+    description: "List/copy files from Windows Downloads into WSL, or hint ModelScope/HF/GGUF download practices.",
     parameters: core.parameters(config),
     output: {
       schema: core.outputSchema(),
