@@ -5,6 +5,18 @@ Tool **`win_download`**: `list`/`copy` Windows Downloads into WSL, or `hint` for
 
 [中文说明 → README.zh.md](./README.zh.md)
 
+## Where it sits
+
+Lists or copies Windows Downloads, and hints ModelScope / Hugging Face / GGUF paths. It does not start a download by itself.
+
+```mermaid
+flowchart LR
+  agent["dsh agent"] --> tool["win_download"] --> win["Windows Downloads"]
+```
+
+Suite diagram and version snapshot: [dsh-wsl-kit](https://github.com/173787247/dsh-wsl-kit#how-the-pieces-fit). This plugin is **0.2.0** (full). Do not copy that matrix into this README.
+
+
 ## Compatibility
 
 | Field | Value |
